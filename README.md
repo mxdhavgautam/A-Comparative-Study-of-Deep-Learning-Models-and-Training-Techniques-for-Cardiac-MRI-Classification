@@ -71,7 +71,3 @@ The project utilizes the publicly available **CAD Cardiac MRI Dataset** sourced 
 ## Conclusion
 
 This study successfully applied deep transfer learning for classifying cardiac MRI images based on a moderately imbalanced dataset (~1.5:1 ratio). MobileNetV2 and ResNet152V2 baselines showed the strongest individual performance (Balanced Accuracy ~77-78%), highlighting the accuracy-efficiency trade-off. Class weighting was essential. The simple attention mechanism did not yield improvements, while the attention model ensemble provided robust, competitive performance.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
